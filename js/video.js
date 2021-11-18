@@ -26,8 +26,8 @@ mute.addEventListener("click", function(){
 	if(video.muted == false){
 		video.muted = true;
 		mute.innerHTML = "Unmute";
-		var sound = (video.volume) * 100
-		document.querySelector("#volume").innerHTML = sound + "%"
+		// var sound = (video.volume) * 100
+		// document.querySelector("#volume").innerHTML = sound + "%"
 
 		
 	}
